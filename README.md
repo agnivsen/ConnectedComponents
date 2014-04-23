@@ -15,15 +15,13 @@ Download the source and run it on the iOS simulator.
 
 ###HOW TO TEST THIS PROJECT FROM THE FRONT-END:
 
-1.) Run the project. The following screen should appear:
-
-
+1.) Run the project. 
 
 2.) Click the load button and choose an image from your gallery. (Loading from camera not available)
 
 
-
 3.) Click the 'label' button. A text should appear, indicating the number of unique components found.
+
 
 ****
 
