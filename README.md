@@ -11,19 +11,24 @@ Download the source and run it on the iOS simulator.
 
 [The default source code will only label white colored objects in your image]
 
-++++++++++++++++++++++++++++
+****
+
 
 HOW TO INCLUDE THIS FUNCTIONALITY INTO YOUR PROJECT:
 
 1.) Drag and drop the two files titled: ConnectedComponentLabelling.h and ConnectedComponentLabelling.m in your project
 
+
 2.) Create an object of this class in your app:
-    ConnectedComponentLabelling *ccl = [[ConnectedComponentLabelling alloc] init];
+    `ConnectedComponentLabelling *ccl = [[ConnectedComponentLabelling alloc] init];`
+      
       
 3.) Pass the image you want to label 
+    
     image = [ccl twoPassCCL :image :[UIColor colorWithRed:255.0 green:255.0 blue:255.0 alpha:255.0]];
-      //(Defaults to white. Change the color values as per your requirements OR threshold your image apriori and then call this method)
+     //(Defaults to white. Change the color values as per your requirements OR threshold your image apriori and then call this method)
+      
       
 4.) The total number of unique elements counted can be obtained using:
-    [ccl getUniqueElementCount];
+    `[ccl getUniqueElementCount];`
   
